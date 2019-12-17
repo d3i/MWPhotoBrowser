@@ -445,6 +445,7 @@ static void * MWVideoPlayerObservation = &MWVideoPlayerObservation;
     UINavigationBar *navBar = self.navigationController.navigationBar;
     navBar.tintColor = [UIColor whiteColor];
     navBar.barTintColor = nil;
+    navBar.titleTextAttributes = @{ NSForegroundColorAttributeName: UIColor.whiteColor };
     navBar.shadowImage = nil;
     navBar.translucent = YES;
     navBar.barStyle = UIBarStyleBlackTranslucent;
